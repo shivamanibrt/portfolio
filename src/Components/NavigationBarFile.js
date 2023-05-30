@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import myPdf from "../assets/Shivamani-Bartaula-cv_1.pdf";
+import myPdf from "../assets/Shivamani Bartaula Resume.pdf";
 import { Button } from 'react-bootstrap';
 
 export const NavigationBarFile = ({ isDarkMode, handleThemeChange }) => {
