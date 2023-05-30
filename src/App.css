@@ -1,0 +1,173 @@
+.main-child {
+    min-height: 80vh;
+}
+.navbar-brand-red:hover {
+    color: #dc3545 !important;
+    transition: all 0.4s;
+}
+
+.banner_image {
+    position: relative;
+    line-height: 1.6;
+    background-image: linear-gradient(
+            to bottom right,
+            rgba(30, 30, 29, 0.88),
+            rgba(69, 68, 67, 0.669)
+        ),
+        url(./assets/coverImg.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    background-attachment: fixed;
+}
+.about_info {
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    margin: auto;
+    transform: translate(-50%, -50%);
+}
+.vertical_line {
+    width: 90%;
+    margin: auto;
+    border-left: 2px solid #dfdfde;
+    height: 100px;
+    display: flex; /* ensure the container is a flex container */
+    align-items: center; /* center the button vertically */
+}
+.vertical_line Button {
+    margin-left: 10px; /* add a left margin of 10px */
+}
+h2::after {
+    display: block;
+    height: 2px;
+    background-color: #dfdfde;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.card-img-top:hover {
+    /* transform: scale(1.2); */
+    padding: 3px;
+    transition: all 0.3s;
+}
+
+.programming-language-container {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(180, 178, 178, 0.4);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: 1;
+}
+.programming_language_image {
+    height: 100px;
+    width: 100px;
+}
+.programming-language-container img:hover {
+    padding: 3px;
+    /* margin-top: -5px; */
+    transition: all 0.3s;
+}
+.get_in_touch_social {
+    width: 100px;
+    cursor: pointer;
+    border-radius: 200px;
+}
+.get_in_touch_social:hover {
+    padding: 5px;
+    transition: all 0.8s;
+}
+.emailContainer a:hover {
+    color: #000 !important;
+    transition: all 0.3s;
+}
+
+/* ---------- Form -----------  */
+/**************************/
+/* CTA SECTION */
+/**************************/
+.section-cta {
+    padding: 4.8rem 0 12.8rem;
+}
+.cta {
+    display: grid;
+
+    grid-template-columns: 2fr 1fr;
+    /* background-color: #e67e22; */
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+    border-radius: 11px;
+    background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+    overflow: hidden;
+}
+.cta-text-box {
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+    color: #45260a;
+}
+.cta .heading-secondary {
+    /* color: #45260a; */
+    color: inherit;
+    margin-bottom: 3.2rem;
+}
+.cta-text {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 4.8rem;
+}
+.cta-img-box {
+    background-image: linear-gradient(
+            to right bottom,
+            rgba(235, 151, 78, 0.35),
+            rgba(230, 125, 34, 0.35)
+        )
+        url("assets/austin-distel-wD1LRb9OeEo-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.cta-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3.2rem;
+    row-gap: 2.4rem;
+}
+.cta-form label {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+}
+.cta-form input,
+.cta-form select {
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    font-family: inherit;
+    color: inherit;
+    border: none;
+    background-color: #fdf2e9;
+    border-radius: 9px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.cta-form input::placeholder {
+    color: #aaa;
+}
+.cta *:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
+
+.fa-brands {
+    color: rgb(244, 241, 241);
+}
+.fa-brands:hover {
+    color: #8a87876c;
+    transition: all 0.5s;
+}
+/* h2 {
+    filter: invert(1);
+} */
