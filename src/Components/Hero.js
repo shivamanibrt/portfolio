@@ -15,7 +15,7 @@ export const Hero = () => {
                             <h1>Shivamani Bartaula</h1>
                             <h3>
                                 A
-                                <span style={{ color: '#2192ff' }}> Web Developer </span>
+                                <span style={{ color: '#2192ff' }}> Software Engineer </span>
                                 From
                                 <span style={{ color: '#ff7f3f' }}> Sydney </span>
                             </h3>
@@ -35,34 +35,10 @@ export const Hero = () => {
                 </Modal.Header>
                 <Modal.Body>
                     <p class="para">
-                        Hi, I am Shivamani, a software engineer with 1 year of experience in
-                        frontend web development. I help businesses build digital solutions
-                        using Bootstrap, JavaScript (React.js), and Redux. I am passionate
-                        about building scalable products that are valuable to users.
+                        Hello, I'm Shivamani, a skilled MERN Software Developer with 1.5 years' experience, seeking a Full Stack Engineer role. Proficient in React, Redux, Node, MongoDB, and more, I create scalable solutions for user value. Exploring AWS and Typescript.
+                        <br /><br />Available full-time till April 2027, open to relocation My latest project I am currently working on is  <a href="https://www.chatsimple.tech/" target="_blank" rel="noopener noreferrer">ChatSimple</a>
+                        {" "}it’s a better UI for chatGpt.
                     </p>
-                    <p class="para">Full-time working right up to April 2025</p>
-                    <h3>Experience</h3>
-                    <p><b>Software Engineer AuTechJobs.com / Sydney / January, 2023 - Present
-                    </b></p>
-                    <ul>
-                        <li>Standardized theme development process which
-                            improved consistency and scalability.</li>
-                        <li>Increased code coverage from 80% to 84% using
-                            the javascript testing library and jest</li>
-                        <li>Devised onboarding work</li>
-                    </ul>
-                    <p><b>WoodongaUrbanLandcare.com / Melbourne / March, 2022 -
-                        October, 2022
-                    </b></p>
-                    <ul>
-                        <li>Developed and customized a WordPress website
-                            from scratch using DIVI for Wodonga Urban
-                            Landcare Melbourne as a major college project.</li>
-                        <li>Applied Agile scrum development methodology
-                            which enabled faster release of features and </li>
-                    </ul>
-
-
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="secondary" onClick={() => setModalShow(false)}>Close</Button>

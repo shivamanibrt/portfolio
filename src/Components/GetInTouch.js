@@ -16,7 +16,7 @@ export const GetInTouch = ({ isDarkMode }) => {
     const titleStyle = isDarkMode ? { color: 'white' } : { color: '#332D2D' };
 
     return (
-        <div className=' p-4' style={bgStyle}>
+        <div className=' p-4 main-child' style={bgStyle}>
             <div className='d-flex justify-content-center text-light p-4'>
                 <Row><h2 style={titleStyle}> Get in touch</h2></Row>
             </div>

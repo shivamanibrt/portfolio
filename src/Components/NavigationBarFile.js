@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import myPdf from "../assets/Shivamani Bartaula Resume.pdf";
+import myPdf from "../assets/Shivamani_Bartaula_Resume.pdf";
 import { Button } from 'react-bootstrap';
 
 export const NavigationBarFile = ({ isDarkMode, handleThemeChange }) => {
@@ -22,9 +22,9 @@ export const NavigationBarFile = ({ isDarkMode, handleThemeChange }) => {
                             <Nav.Link as={Link} to="hero">About</Nav.Link>
                             <Nav.Link as={Link} to="recentWork">Portfolio</Nav.Link>
                             <Nav.Link as={Link} to="techStack">Skills</Nav.Link>
-                            <Nav.Link href={hashnode} target="_blank">Blog</Nav.Link>
                             <Nav.Link as={Link} to="getInTouch">Get-in-touch</Nav.Link>
                             <Nav.Link as={Link} to="contactUsFile">Contact-Form</Nav.Link>
+                            <Nav.Link href={hashnode} target="_blank">Blog</Nav.Link>
                         </Nav>
 
                         <Nav>
