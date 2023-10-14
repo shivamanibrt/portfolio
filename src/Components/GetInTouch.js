@@ -7,7 +7,7 @@ import githubImg from '../icon/icons8-github-480.png';
 
 export const GetInTouch = ({ isDarkMode }) => {
     const linkedin = 'https://www.linkedin.com/in/shivamanibrt/';
-    const twitter = 'https://twitter.com/Aayush_Bartaula';
+    const twitter = 'https://twitter.com/shivamanibrt';
     const hashnode = 'https://shivamani.hashnode.dev/';
     const github = 'https://github.com/shivamanibrt';
     const email = "shivamanibrt03350@gmail.com";

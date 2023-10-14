@@ -3,7 +3,7 @@ import { Row, Col, Container } from 'react-bootstrap';
 
 export const FooterFile = ({ isDarkMode }) => {
     const linkedin = 'https://www.linkedin.com/in/shivamanibrt/';
-    const twitter = 'https://twitter.com/Aayush_Bartaula';
+    const twitter = 'https://twitter.com/shivamanibrt';
     const hashnode = 'https://shivamani.hashnode.dev/';
     const github = 'https://github.com/shivamanibrt';
 
