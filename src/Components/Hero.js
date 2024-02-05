@@ -35,7 +35,8 @@ export const Hero = () => {
                 </Modal.Header>
                 <Modal.Body>
                     <p class="para">
-                        Hello, I'm Shivamani, a skilled MERN Software Developer with 1.5 years' experience, seeking a Full Stack Engineer role. Proficient in React, Redux, Node, MongoDB, and more, I create scalable solutions for user value. Exploring AWS and Typescript.
+
+                        Hi, I am Shivamani, a software Developer with over 2.5 years of professional and project-based experience in full-stack web application. I help business build digital solutions using Typescript, MongoDB, Express, JavaScript (React.js), Node.js. I am passionate about building scalable products that are valuable to users.
                         <br /><br />Available full-time till April 2027, open to relocation My latest project I am currently working on is  <a href="https://www.chatsimple.tech/" target="_blank" rel="noopener noreferrer">ChatSimple</a>
                         {" "}it’s a better UI for chatGpt.
                     </p>

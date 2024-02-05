@@ -12,7 +12,8 @@ import awsImg from '../icon/icons8-amazon-web-services-480.png'
 import fireBaseImg from '../icon/icons8-firebase-480.png'
 import bootstrapImg from '../icon/icons8-bootstrap-480.png'
 import tailWindImg from '../icon/icons8-tailwind-css-480.png'
-import htmlImg from '../icon/html.png'
+import typescriptPng from '../icon/typescript_5968381.png'
+
 
 export const TechStack = ({ isDarkMode }) => {
     const bgStyle = isDarkMode ? { backgroundColor: '#212529' } : { backgroundColor: 'rgb(244, 241, 241)' };
@@ -25,7 +26,7 @@ export const TechStack = ({ isDarkMode }) => {
             <Container style={bgStyle} >
                 <Row className="shadow-lg p-2 programming-language-container d-flex flex-wrap mb-5">
                     <Col>
-                        <img class="programming_language_image" src={htmlImg} alt="htmlImg" />
+                        <img class="programming_language_image" src={typescriptPng} alt="htmlImg" />
                     </Col>
                     <Col>
                         <img class="programming_language_image" src={javaScriptImg} alt="JavaScript logo" />

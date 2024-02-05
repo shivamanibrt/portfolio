@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import myPdf from "../assets/Shivamani_Bartaula_Resume.pdf";
-import { Button } from 'react-bootstrap';
+
 
 export const NavigationBarFile = ({ isDarkMode, handleThemeChange }) => {
     const hashnode = 'https://shivamani.hashnode.dev/';
@@ -28,11 +27,11 @@ export const NavigationBarFile = ({ isDarkMode, handleThemeChange }) => {
                         </Nav>
 
                         <Nav>
-                            <Nav.Link href={myPdf} onClick={() => window.open(myPdf)} target="_blank" >
+                            {/* <Nav.Link href={myPdf} onClick={() => window.open(myPdf)} target="_blank" >
                                 <Button variant="danger" className='p-2'>
                                     Download Resume <i className="fa-solid fa-circle-down"></i>
                                 </Button>
-                            </Nav.Link>
+                            </Nav.Link> */}
 
                             <Nav.Link onClick={handleThemeChange} >
                                 {isDarkMode
