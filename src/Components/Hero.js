@@ -15,7 +15,7 @@ export const Hero = () => {
                             <h1>Shivamani Bartaula</h1>
                             <h3>
                                 A
-                                <span style={{ color: '#2192ff' }}> Software Engineer </span>
+                                <span style={{ color: '#2192ff' }}> Software Developer </span>
                                 From
                                 <span style={{ color: '#ff7f3f' }}> Sydney </span>
                             </h3>
