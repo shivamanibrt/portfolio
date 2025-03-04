@@ -12,7 +12,7 @@ export const Hero = () => {
                     <div class='about_box'>
                         <div>
                             <h3>Hello, I'm</h3>
-                            <h1>Shivamani Bartaula</h1>
+                            <h1>Shiv Bartaula</h1>
                             <h3>
                                 A
                                 <span style={{ color: "#2192ff" }}>
