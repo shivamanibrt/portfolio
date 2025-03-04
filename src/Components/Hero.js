@@ -19,11 +19,6 @@ export const Hero = () => {
                                     {" "}
                                     Software Developer{" "}
                                 </span>
-                                From
-                                <span style={{ color: "#ff7f3f" }}>
-                                    {" "}
-                                    Sydney{" "}
-                                </span>
                             </h3>
                         </div>
                         <div class='vertical_line'>
